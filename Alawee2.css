@@ -1,0 +1,209 @@
+html {
+    min-height: 100%;
+    margin: 0;
+}
+body {
+    min-height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+@media screen and (max-width: 1250px) {
+    
+    #attendance {
+        float: right;
+        margin: 30px;
+        font-size: 17.5px;
+       
+    }
+    #gps {
+        float: right;
+       margin: 30px;
+        font-size: 17.5px;
+    }
+   
+  }
+
+  @media screen and (max-width: 1150px) {
+    
+    #attendance {
+        float: right;
+        position: absolute;
+        right: 9%;
+        margin: 30px;
+        font-size: 15px;
+       
+    }
+    #attendant{
+        float: right;
+        position: absolute;
+        right: 9%;
+        margin: 30px;
+        font-size: 15px;
+       
+    }
+    #gps {
+        float: right;
+        position: absolute;
+        right: 2%;
+        margin: 30px;
+        font-size: 15px;
+    }
+    #info2 {
+       font-size: 15px;
+    }
+    #info {
+        font-size: 15px;
+    }
+    #label {
+        font-family:cursive;
+        font-size: 12px;
+        position: absolute;
+        top: 15px;
+        left: 9%; 
+  
+        }
+        #top{
+            display: none;
+        }
+   
+  }
+
+  @media screen and (max-width: 1100px) {
+   
+    #dollars {
+        float: left;
+        border-radius: 20px 55px 35px; 
+        height: 200px;
+        width: 200px;
+        margin: 20px;
+    }
+    #attendance {
+        float: right;
+        position: absolute;
+        right: 9%;
+        margin: 30px;
+        font-size: 15px;
+       
+    }
+    #attendant {
+        float: right;
+        position: absolute;
+        right: 9%;
+        margin: 30px;
+        font-size: 15px;
+       
+    }
+    #gps {
+        float: right;
+        position: absolute;
+        right: 2%;
+        margin: 30px;
+        font-size: 15px;
+    }
+    #label {
+        font-family:cursive;
+        font-size: 12px;
+        position: absolute;
+        top: 15px;
+        left: 9%; 
+    }
+    #intro{
+        position:absolute;
+        left: 20px;
+        top: 12%;
+        font-size:29px;
+        font-family:bernard;
+    }
+    #sub{
+        color:white;
+         position:absolute; 
+         left: 20px; 
+         top: 22%; 
+         font-size:20px;font-family:bernard; 
+    }
+    #sub2{
+        color:white;
+         position:absolute;
+          left: 20px;
+           top: 28%; 
+           font-size:20px;
+           font-family:bernard; 
+  }
+  #top{
+    display: none;
+}}
+
+  @media screen and (max-width: 900px) {
+    
+    #dollars {
+        float: left;
+        border-radius: 20px 55px 35px; 
+        height: 150px;
+        width: 150px;
+        margin: 20px;
+    }
+    #attendance {
+        float: right;
+        position: absolute;
+        right: 9%;
+        margin: 30px;
+        font-size: 13px;
+       
+    }
+    #attendant {
+        float: right;
+        position: absolute;
+        right: 9%;
+        margin: 30px;
+        font-size: 13px;
+       
+    }
+    #gps {
+        float: right;
+        position: absolute;
+        right: 2%;
+        margin: 30px;
+        font-size: 13px;
+    }
+    #info2 {
+        font-size: 13px;
+     }
+     #info {
+         font-size: 13px;
+     }
+     #label {
+        font-family:cursive;
+        font-size: 12px;
+        position: absolute;
+        top: 15px;
+        left: 10%; 
+    }
+    #intro{
+        position:absolute;
+        left: 15px;
+        top: 12%;
+        font-size:25px;
+        font-family:bernard;
+    }
+    #sub{
+        color:white;
+         position:absolute; 
+         left: 15px; 
+         top: 22%; 
+         font-size:17px;font-family:bernard; 
+    }
+    #sub2{
+        color:white;
+         position:absolute;
+          left: 15px;
+           top: 28%; 
+           font-size:17px;
+           font-family:bernard; 
+  }
+  #top{
+    display: none;
+}
+
+  
+}

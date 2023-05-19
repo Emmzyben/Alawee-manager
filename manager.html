@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> 
+        Manager Dashboard
+      </title>
+      <link rel="stylesheet" href="manager.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header>
+  <img src="loooggo.jpg"  id="logo"/>
+  <div id="label">   <h1>ALAWEE MANAGER</h1></div>
+  <h2>Manager Dashboard</h2>
+</header>
+
+<!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">Remove member</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Addmembers</button>
+  <button class="tablinks" onclick="openCity(event, 'Lagos')">Messages</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Deduct salary</button>
+</div>
+
+
+
+
+<div id="balance">
+  <p>Balance Funds</p>
+</div>
+<aside>
+  <h3>Staff list</h3>
+  <input type="text" placeholder="Search staff">
+</aside>
+
+
+
+
+<!-- Tab content -->
+<div id="London" class="tabcontent">
+  <p> Remove a worker from your list</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <p>Add new staff member</p>
+  <form action="" id="fom">
+    Full name:<br>
+    <input type="text" name="name" id="text" ><br><br><br>
+    Ethereum address:<br>
+    <input type="text" name="address" id="text" ><br>
+    <br><br>
+    Staff id:<br>
+    <input type="text" name="id" id="text" ><br>
+    <br>
+    <input type="submit" value="Enter" id="enter">
+  </form>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Deduct salary</h3>
+</div>
+
+<div id="Lagos" class="tabcontent">
+  <h3>Messages from staff members will appear here</h3>
+</div>
+
+<script src="Alawee.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

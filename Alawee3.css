@@ -1,0 +1,314 @@
+@media screen and (max-width: 850px) {
+  
+    #dollars {
+      border-radius:20% ;
+      height:100px ;
+    }
+    #advert2{
+        height: 300px;  
+    }
+    #gps {
+        position: absolute;
+        top: 1150px;
+    }
+   
+    #attendant{
+        position: absolute;
+        top: 1450px; 
+        right: 10px; 
+        font-size: 14px;
+    }
+   
+    #gps {
+        float: right;
+        position: absolute;
+        right: 2%;
+        margin: 30px;
+        font-size: 13px;
+    }
+    #info2 {
+        font-size: 15px;
+        width: 97%;
+        height: 280px;
+     }
+     #info {
+         font-size: 15px;
+         width: 97%;
+         height: 180px;
+     }
+     #steps{
+        display: none;
+     }
+     #label {
+        font-family:cursive;
+        font-size: 12px;
+        position: absolute;
+        top: 15px;
+        left: 10%; 
+    }
+    #intro{
+        position:absolute;
+        left: 15px;
+        top: 15%;
+        font-size:23px;
+        font-family:bernard;
+    }
+    #sub{
+        color:white;
+         position:absolute; 
+         left: 15px; 
+         top: 22%; 
+         font-size:17px;font-family:bernard; 
+    }
+    #sub2{
+        color:white;
+         position:absolute;
+          left: 15px;
+           top: 28%; 
+           font-size:17px;
+           font-family:bernard; 
+  }
+  #foot{
+    font-size: 14px;
+  }
+  #logo {
+    height: 70px;
+}
+ #label {
+    font-size: 12px;
+    position: absolute;
+    top: 14px;
+    left: 10%; 
+}
+#links {
+    position: absolute;
+    right: 40px;
+    top:10%;
+}
+#top{
+    display: none;
+}
+}
+@media screen and (max-width: 750px) {
+    
+    #dollars {
+        border-radius:20% ;
+        height:90px ;
+      }
+      #advert2{
+          height: 280px;  
+      }
+      #gps {
+          position: absolute;
+          top: 1150px;
+      }
+    
+      #attendant{
+          position: absolute;
+          top: 1450px; 
+          right: 10px; 
+          font-size: 14px;
+      }
+     
+      #gps {
+          float: right;
+          position: absolute;
+          right: 2%;
+          margin: 30px;
+          font-size: 13px;
+      }
+      #info2 {
+          font-size: 15px;
+          width: 97%;
+          height: 280px;
+       }
+       #info {
+           font-size: 15px;
+           width: 97%;
+           height: 180px;
+       }
+       #steps{
+          display: none;
+       }
+      
+      #intro{
+          position:absolute;
+          left: 15px;
+          top: 15%;
+          font-size:20px;
+          font-family:bernard;
+      }
+      #sub{
+          color:white;
+           position:absolute; 
+           left: 15px; 
+           top: 22%; 
+           font-size:16px;font-family:bernard; 
+      }
+      #sub2{
+          color:white;
+           position:absolute;
+            left: 15px;
+             top: 28%; 
+             font-size:16px;
+             font-family:bernard; 
+    }
+    #foot{
+      font-size: 13px;
+    }
+    #logo {
+      height: 70px;
+  }
+   #label {
+      font-size: 10px;
+      position: absolute;
+      top: 14px;
+      left: 13%; 
+  }
+  #links {
+      position: absolute;
+      right: 30px;
+      top:12%;
+  }
+  ul li {
+    margin: 11px;
+    font-size: 13px;   
+}
+  a {
+    padding: 5px;
+  }
+  button {
+    border: 1px solid lightgreen;
+    padding: 7px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: lightgreen;
+    position: absolute;
+    left: 10%;
+    top: 350px;
+}
+#top{
+    display: none;
+}
+}
+@media screen and (max-width: 600px) {
+    
+#dollars {
+    border-radius:20% ;
+    height:90px ;
+  }
+  #advert2{
+      height: 350px;  
+  }
+  #gps {
+      position: absolute;
+      top: 1200px;
+  }
+ 
+  #attendant{
+      position: absolute;
+      top: 1600px; 
+      right: 10px; 
+      font-size: 14px;
+  }
+ 
+  #gps {
+      float: right;
+      position: absolute;
+      right: 2%;
+      margin: 30px;
+      font-size: 13px;
+  }
+  #info2 {
+      font-size: 15px;
+      width: 97%;
+      height: 280px;
+   }
+   #info {
+       font-size: 15px;
+       width: 97%;
+       height: 180px;
+   }
+   #steps{
+      display: none;
+   }
+  
+  #intro{
+      position:absolute;
+      left: 20%;
+      top: 43%;
+      font-size:20px;
+      font-family:bernard;
+  }
+  #sub{
+      color:white;
+       position:absolute; 
+       left: 19%; 
+       top: 48%; 
+       font-size:16px;font-family:bernard; 
+  }
+  #sub2{
+      color:white;
+       position:absolute;
+        left: 22%;
+         top: 52%; 
+         font-size:16px;
+         font-family:bernard; 
+}
+#foot{
+  font-size: 13px;
+}
+#logo {
+  height: 60px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#label {
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  left: 12%; 
+}
+#links {
+    position: absolute;
+      right: 0;
+      top:40%;
+}
+button {
+border: 1px solid lightgreen;
+padding: 7px;
+border-radius: 20px;
+padding-left: 20px;
+padding-right: 20px;
+background-color: lightgreen;
+position: absolute;
+left: 35%;
+top: 430px;}
+
+#top {
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    height: 50px;
+}
+.test {
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    top: 80px;
+  }
+  section {
+    background-image: url("bitcoin-ethereum-gID_5.webp");
+    background-repeat:repeat;
+    background-size:  5000px;
+    height:400px;  
+    width: 100.5%;
+    
+
+}
+
+
+}

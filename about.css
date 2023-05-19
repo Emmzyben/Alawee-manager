@@ -1,0 +1,142 @@
+body{
+    background-color: rgb(184, 247, 184);
+    height: 1300px;
+}
+#box{
+    background-color: white;
+    border: 1px solid white;
+    height: 300px;
+    width: 700px;
+    position: absolute;
+    left:3%;
+    top: 30%;
+    border-radius: 50px;
+}
+#box2{
+    background-color: white;
+    border: 1px solid white;
+    height: 300px;
+    width: 700px;
+    position: absolute;
+    right:3%;
+    top: 80%;
+    border-radius: 50px;
+}
+#box3{
+    background-color: white;
+    border: 1px solid white;
+    height: 300px;
+    width: 700px;
+    position: absolute;
+    left:3%;
+    top: 130%;
+    border-radius: 50px;
+}
+#inner {
+    width: 600px;
+    text-align: left;
+    font-size: 18px; 
+    position: relative; 
+    left: 5%;
+    top: 7%;
+
+}
+label{
+    font-size: 80px;
+    position: relative; 
+    left: 35%;
+    color: white;
+    
+}
+@media screen and (max-width: 750px) {
+    #box{
+        background-color: white;
+        border: 1px solid white;
+        height: 300px;
+        width: 500px;
+        position: absolute;
+        top: 30%;
+        border-radius: 50px;
+    }
+    #box2{
+        background-color: white;
+        border: 1px solid white;
+        height: 300px;
+        width: 500px;
+        position: absolute;
+        top: 80%;
+        border-radius: 50px;
+    }
+    #box3{
+        background-color: white;
+        border: 1px solid white;
+        height: 300px;
+        width: 500px;
+        position: absolute;
+        top: 130%;
+        border-radius: 50px;
+    }
+    #inner {
+        width: 450px;
+        text-align: left;
+        font-size: 15px; 
+        position: relative; 
+        left: 5%;
+        top: 7%;
+    } 
+    label{
+        font-size: 80px;
+        position: relative; 
+        left: 25%;
+        color: white;
+        
+    }
+}
+
+    @media screen and (max-width: 600px) {
+        #box{
+            background-color: white;
+            border: 1px solid white;
+            height: 300px;
+            width: 480px;
+            position: absolute;
+            left: 0;
+            top: 26%;
+            border-radius: 50px;
+        }
+        #box2{
+            background-color: white;
+            border: 1px solid white;
+            height: 300px;
+            width: 480px;
+            position: absolute;
+            left: 0;
+            top: 76%;
+            border-radius: 50px;
+        }
+        #box3{
+            background-color: white;
+            border: 1px solid white;
+            height: 300px;
+            width: 480px;
+            position: absolute;
+            top: 126%;
+            left: 0;
+            border-radius: 50px;
+        }
+        #inner {
+            width: 450px;
+            text-align: left;
+            font-size: 15px; 
+            position: relative; 
+            left: 5%;
+            top: 7%;
+        } 
+        label{
+            font-size: 60px;
+            position: relative; 
+            left: 25%;
+            color: white;
+            
+        }
+    }
